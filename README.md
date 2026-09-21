@@ -138,8 +138,6 @@ EditMode**, compilación Unity limpia y build Windows x86_64 correcto.
 - La consulta meteorológica en vivo requiere credenciales propias y datos de
   referencia externos. Sin datos válidos, TwinElec muestra estado de fallback,
   no una capacidad operativa.
-- La reescritura del historial Git se ha pospuesto deliberadamente; véase el
-  aviso en [SECURITY.md](docs/SECURITY.md).
 
 ---
 
