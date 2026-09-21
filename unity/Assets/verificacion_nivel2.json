@@ -1,0 +1,187 @@
+{
+  "nombre": "Verificación Nivel 2 - Caso oficial IEEE 738-2023",
+  "conductor": "795 kcmil 26/7 Drake ACSR",
+  "entradas": {
+    "conductor": {
+      "designacion": "795 kcmil 26/7 Drake ACSR (caso oficial IEEE 738)",
+      "diametro_mm": 28.14,
+      "seccion_mm2": 402.6,
+      "composicion": "26/7",
+      "r_low_ohm_km": 0.07283,
+      "r_high_ohm_km": 0.08688,
+      "t_low_C": 25.0,
+      "t_high_C": 75.0,
+      "emisividad": 0.8,
+      "absortividad": 0.8
+    },
+    "meteorologia": {
+      "ta_C": 40.0,
+      "vw_m_s": 0.61,
+      "direccion_viento_deg": 180.0
+    },
+    "geometria": {
+      "he_m": 0.0,
+      "lat_deg": 30.0,
+      "zl_deg": 90.0
+    },
+    "fecha": "2025-06-10",
+    "hora_solar": 11.0,
+    "limite": {
+      "ts_C": 100.0
+    }
+  },
+  "resultado_motor": {
+    "modo": "ieee738",
+    "entradas_resumen": {
+      "conductor": "795 kcmil 26/7 Drake ACSR (caso oficial IEEE 738)",
+      "ts_C": 100.0,
+      "ta_C": 40.0,
+      "vw_m_s": 0.61,
+      "phi_deg": 90.0,
+      "he_m": 0.0,
+      "lat_deg": 30.0,
+      "zl_deg": 90.0,
+      "fecha": "2025-06-10",
+      "hora_solar": 11.0,
+      "emisividad": 0.8,
+      "absortividad": 0.8
+    },
+    "intermedios": {
+      "presion_hpa": 1013.25,
+      "r_tavg_ohm_m": 9.390499999999999e-05,
+      "r_tavg_ohm_km": 0.09390499999999999,
+      "tfilm_C": 70.0,
+      "viscosidad_kg_ms": 2.042759261819309e-05,
+      "densidad_aire_reynolds_kg_m3": 1.0287214575543002,
+      "densidad_aire_qcn_kg_m3": 1.0287214575543002,
+      "conductividad_termica_kf_W_mC": 0.0294523057,
+      "reynolds": 864.4393706860867,
+      "kangle": 1.0,
+      "qcn_W_m": 42.41588811268587,
+      "qc1_W_m": 82.08309633569729,
+      "qc2_W_m": 77.03403010040358,
+      "qc_W_m": 82.08309633569729,
+      "qr_W_m": 39.15652175263704,
+      "declinacion_solar_deg": 23.011636727869234,
+      "angulo_horario_deg": -15.0,
+      "altitud_solar_hc_deg": 74.88622116045721,
+      "acimut_solar_zc_deg": 113.98441942855138,
+      "theta_incidencia_deg": 76.21827797272749,
+      "qs_nivel_mar_W_m2": 1027.267840852518,
+      "k_solar": 1.0,
+      "qse_W_m2": 1027.267840852518,
+      "area_proyectada_m2_m": 0.028140000000000002,
+      "qs_W_m": 22.460067828702343,
+      "radicando_A2": 1051909.379262361
+    },
+    "resultado": {
+      "i_max_A": 1025.6263351057055
+    }
+  },
+  "valores_oficiales": [
+    [
+      "r_tavg_ohm_m",
+      9.391e-05,
+      "ohm/m",
+      0.5
+    ],
+    [
+      "densidad_aire_qcn_kg_m3",
+      1.029,
+      "kg/m³",
+      1.0
+    ],
+    [
+      "viscosidad_kg_ms",
+      2.043e-05,
+      "kg/(m·s)",
+      1.0
+    ],
+    [
+      "conductividad_termica_kf_W_mC",
+      0.02945,
+      "W/(m·°C)",
+      1.0
+    ],
+    [
+      "reynolds",
+      865.0,
+      "-",
+      1.0
+    ],
+    [
+      "qcn_W_m",
+      42.42,
+      "W/m",
+      1.0
+    ],
+    [
+      "qc1_W_m",
+      82.1,
+      "W/m",
+      1.0
+    ],
+    [
+      "qc2_W_m",
+      77.06,
+      "W/m",
+      1.0
+    ],
+    [
+      "qc_W_m",
+      82.1,
+      "W/m",
+      1.0
+    ],
+    [
+      "qr_W_m",
+      39.11,
+      "W/m",
+      1.0
+    ],
+    [
+      "declinacion_solar_deg",
+      23.0,
+      "°",
+      1.5
+    ],
+    [
+      "angulo_horario_deg",
+      -15.0,
+      "°",
+      0.1
+    ],
+    [
+      "altitud_solar_hc_deg",
+      74.9,
+      "°",
+      1.0
+    ],
+    [
+      "acimut_solar_zc_deg",
+      114.0,
+      "°",
+      2.0
+    ],
+    [
+      "theta_incidencia_deg",
+      76.2,
+      "°",
+      1.0
+    ],
+    [
+      "qs_nivel_mar_W_m2",
+      1027.0,
+      "W/m²",
+      1.0
+    ],
+    [
+      "qs_W_m",
+      22.45,
+      "W/m",
+      1.5
+    ]
+  ],
+  "corriente_oficial_A": 1025.0,
+  "veredicto": "PASS todos los bloques"
+}

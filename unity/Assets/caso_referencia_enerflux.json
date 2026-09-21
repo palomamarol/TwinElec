@@ -1,0 +1,91 @@
+{
+  "nombre_caso": "Nivel 1A (diagnóstico) - Réplica EnerFlux",
+  "descripcion": "Caso de referencia estático IEEE 738 para validar el motor DLR. Se genera automáticamente para cualquier línea (cambia el Excel y se regenera).",
+  "modo": "enerflux",
+  "fecha_generacion": "2026-09-21T10:57:06",
+  "geometria_derivada": {
+    "num_apoyos": 4,
+    "acimut_linea_zl_deg": 185.71059313749964,
+    "altitud_media_m": 555.025,
+    "latitud_media_deg": 37.94683473297248,
+    "huso": 30,
+    "hemisferio": "N"
+  },
+  "entradas": {
+    "conductor": {
+      "designacion": "47-AL1/8-ST1A (LA-56)",
+      "diametro_mm": 9.45,
+      "seccion_mm2": 54.6,
+      "composicion": "6+1",
+      "r_low_ohm_km": 0.6101,
+      "r_high_ohm_km": 0.6106,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0,
+      "emisividad": 0.8,
+      "absortividad": 0.8
+    },
+    "meteorologia": {
+      "ta_C": 30.0,
+      "vw_m_s": 2.0,
+      "direccion_viento_deg": 90.0
+    },
+    "geometria": {
+      "he_m": 555.025,
+      "lat_deg": 37.94683473297248,
+      "zl_deg": 185.71059313749964
+    },
+    "fecha": "2025-06-21",
+    "hora_solar": 12.0,
+    "limite": {
+      "ts_C": 85.0
+    }
+  },
+  "resultado": {
+    "modo": "enerflux",
+    "entradas_resumen": {
+      "conductor": "47-AL1/8-ST1A (LA-56)",
+      "ts_C": 85.0,
+      "ta_C": 30.0,
+      "vw_m_s": 2.0,
+      "phi_deg": 84.28940686250036,
+      "he_m": 555.025,
+      "lat_deg": 37.94683473297248,
+      "zl_deg": 185.71059313749964,
+      "fecha": "2025-06-21",
+      "hora_solar": 12.0,
+      "emisividad": 0.8,
+      "absortividad": 0.8
+    },
+    "intermedios": {
+      "presion_hpa": 948.3262056676367,
+      "r_tavg_ohm_m": 0.0006107666666666666,
+      "r_tavg_ohm_km": 0.6107666666666667,
+      "tfilm_C": 57.5,
+      "viscosidad_kg_ms": 1.9868936458825693e-05,
+      "densidad_aire_reynolds_kg_m3": 0.9994209500185683,
+      "densidad_aire_qcn_kg_m3": 1.089849905016818,
+      "conductividad_termica_kf_W_mC": 0.028524704356250003,
+      "reynolds": 950.6827904198419,
+      "kangle": 0.4619925127603079,
+      "qcn_W_m": 17.274603831958657,
+      "qc1_W_m": 35.33642927303703,
+      "qc2_W_m": 33.45118474504925,
+      "qc_W_m": 35.33642927303703,
+      "qr_W_m": 10.776154404638554,
+      "declinacion_solar_deg": 23.449782846813658,
+      "angulo_horario_deg": 0.0,
+      "altitud_solar_hc_deg": 75.50294811384117,
+      "acimut_solar_zc_deg": 180.0,
+      "theta_incidencia_deg": 75.57645773920662,
+      "qs_nivel_mar_W_m2": 1027.8303822658122,
+      "k_solar": 1.0637107203229998,
+      "qse_W_m2": 1093.3141962898314,
+      "area_proyectada_m2_m": 5.46e-05,
+      "qs_W_m": 0.04625073885633416,
+      "radicando_A2": 75423.78366886303
+    },
+    "resultado": {
+      "i_max_A": 274.6339084469779
+    }
+  }
+}

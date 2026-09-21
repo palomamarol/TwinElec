@@ -1,0 +1,347 @@
+{
+  "version_esquema": 3,
+  "fuente_excel": "line_example.xlsx",
+  "hoja": "T. tend. cond. fase",
+  "hipotesis": "PESO_PROPIO_SIN_VIENTO_NI_HIELO",
+  "criterio_cantones": "separadores_horizontales_gruesos",
+  "propiedades_conductor": {
+    "designacion": "47-AL1/8-ST1A",
+    "composicion": "6+1",
+    "seccion_mm2": 54.6,
+    "masa_kg_km": 189.1,
+    "peso_daN_m": 0.18531799999999998,
+    "modulo_elasticidad_daN_mm2": 7900,
+    "coef_dilatacion_1_C": 1.91e-05,
+    "propiedades_mecanicas_verificadas": true,
+    "fuente_propiedades_mecanicas": "Tema 1 - Conductores - 2015.pdf, tabla 5, pagina 11"
+  },
+  "cantones": [
+    {
+      "id": 1,
+      "vanos": [
+        1
+      ],
+      "temperatura_referencia_C": 20.0,
+      "tension_referencia_daN": 86.0
+    },
+    {
+      "id": 2,
+      "vanos": [
+        2
+      ],
+      "temperatura_referencia_C": 20.0,
+      "tension_referencia_daN": 165.0
+    },
+    {
+      "id": 3,
+      "vanos": [
+        3
+      ],
+      "temperatura_referencia_C": 20.0,
+      "tension_referencia_daN": 144.0
+    }
+  ],
+  "vanos": [
+    {
+      "indice": 1,
+      "tramo": "1- 2",
+      "canton_id": 1,
+      "fila_excel": 4,
+      "a_utm_m": 10.04987562112089,
+      "h_cotas_m": -0.5599999999999454,
+      "a_excel_m": 10.04,
+      "h_excel_m": -0.05,
+      "vano_regulacion_excel_m": 10.0,
+      "estados_excel": [
+        {
+          "temperatura_C": -5.0,
+          "tension_daN": 284.0,
+          "flecha_m": 0.01,
+          "tension_invertida_daN": 233.50759079448278,
+          "diferencia_inversion_pct": -17.779017325886343
+        },
+        {
+          "temperatura_C": 0.0,
+          "tension_daN": 243.0,
+          "flecha_m": 0.01,
+          "tension_invertida_daN": 233.50759079448278,
+          "diferencia_inversion_pct": -3.906341236838362
+        },
+        {
+          "temperatura_C": 5.0,
+          "tension_daN": 203.0,
+          "flecha_m": 0.01,
+          "tension_invertida_daN": 233.50759079448278,
+          "diferencia_inversion_pct": 15.028369849498906
+        },
+        {
+          "temperatura_C": 10.0,
+          "tension_daN": 162.0,
+          "flecha_m": 0.01,
+          "tension_invertida_daN": 233.50759079448278,
+          "diferencia_inversion_pct": 44.14048814474246
+        },
+        {
+          "temperatura_C": 15.0,
+          "tension_daN": 123.0,
+          "flecha_m": 0.02,
+          "tension_invertida_daN": 116.7542586803686,
+          "diferencia_inversion_pct": -5.0778384712450455
+        },
+        {
+          "temperatura_C": 20.0,
+          "tension_daN": 86.0,
+          "flecha_m": 0.03,
+          "tension_invertida_daN": 77.8366872017159,
+          "diferencia_inversion_pct": -9.492224184051274
+        },
+        {
+          "temperatura_C": 25.0,
+          "tension_daN": 56.0,
+          "flecha_m": 0.04,
+          "tension_invertida_daN": 58.37805586967471,
+          "diferencia_inversion_pct": 4.246528338704841
+        },
+        {
+          "temperatura_C": 30.0,
+          "tension_daN": 38.0,
+          "flecha_m": 0.06,
+          "tension_invertida_daN": 38.919733303198086,
+          "diferencia_inversion_pct": 2.4203507978897
+        },
+        {
+          "temperatura_C": 35.0,
+          "tension_daN": 29.0,
+          "flecha_m": 0.08,
+          "tension_invertida_daN": 29.190880699792622,
+          "diferencia_inversion_pct": 0.6582093096297311
+        },
+        {
+          "temperatura_C": 40.0,
+          "tension_daN": 23.0,
+          "flecha_m": 0.1,
+          "tension_invertida_daN": 23.35381597193544,
+          "diferencia_inversion_pct": 1.5383303127627812
+        },
+        {
+          "temperatura_C": 45.0,
+          "tension_daN": 20.0,
+          "flecha_m": 0.11,
+          "tension_invertida_daN": 21.23133108908054,
+          "diferencia_inversion_pct": 6.156655445402706
+        },
+        {
+          "temperatura_C": 50.0,
+          "tension_daN": 18.0,
+          "flecha_m": 0.13,
+          "tension_invertida_daN": 17.966111990321345,
+          "diferencia_inversion_pct": -0.18826672043697418
+        }
+      ],
+      "temperatura_referencia_C": 20.0,
+      "tension_referencia_daN": 86.0,
+      "flecha_referencia_m": 0.03
+    },
+    {
+      "indice": 2,
+      "tramo": "2- 3",
+      "canton_id": 2,
+      "fila_excel": 5,
+      "a_utm_m": 89.26925562588724,
+      "h_cotas_m": -3.42999999999995,
+      "a_excel_m": 89.27,
+      "h_excel_m": 0.72,
+      "vano_regulacion_excel_m": 89.0,
+      "estados_excel": [
+        {
+          "temperatura_C": -5.0,
+          "tension_daN": 264.0,
+          "flecha_m": 0.69,
+          "tension_invertida_daN": 267.570547411637,
+          "diferencia_inversion_pct": 1.3524800801655281
+        },
+        {
+          "temperatura_C": 0.0,
+          "tension_daN": 238.0,
+          "flecha_m": 0.77,
+          "tension_invertida_daN": 239.775693286631,
+          "diferencia_inversion_pct": 0.7460896162315113
+        },
+        {
+          "temperatura_C": 5.0,
+          "tension_daN": 216.0,
+          "flecha_m": 0.85,
+          "tension_invertida_daN": 217.21327624539583,
+          "diferencia_inversion_pct": 0.5617019654610333
+        },
+        {
+          "temperatura_C": 10.0,
+          "tension_daN": 196.0,
+          "flecha_m": 0.93,
+          "tension_invertida_daN": 198.53298983334395,
+          "diferencia_inversion_pct": 1.2923417517060956
+        },
+        {
+          "temperatura_C": 15.0,
+          "tension_daN": 180.0,
+          "flecha_m": 1.02,
+          "tension_invertida_daN": 181.02068379168622,
+          "diferencia_inversion_pct": 0.5670465509367912
+        },
+        {
+          "temperatura_C": 20.0,
+          "tension_daN": 165.0,
+          "flecha_m": 1.1,
+          "tension_invertida_daN": 167.86030152628058,
+          "diferencia_inversion_pct": 1.7335160765336848
+        },
+        {
+          "temperatura_C": 25.0,
+          "tension_daN": 153.0,
+          "flecha_m": 1.19,
+          "tension_invertida_daN": 155.1703290405817,
+          "diferencia_inversion_pct": 1.418515712798491
+        },
+        {
+          "temperatura_C": 30.0,
+          "tension_daN": 143.0,
+          "flecha_m": 1.28,
+          "tension_invertida_daN": 144.26527371807822,
+          "diferencia_inversion_pct": 0.8848067958588949
+        },
+        {
+          "temperatura_C": 35.0,
+          "tension_daN": 134.0,
+          "flecha_m": 1.36,
+          "tension_invertida_daN": 135.78387186713485,
+          "diferencia_inversion_pct": 1.331247662040932
+        },
+        {
+          "temperatura_C": 40.0,
+          "tension_daN": 126.0,
+          "flecha_m": 1.44,
+          "tension_invertida_daN": 128.2451215186286,
+          "diferencia_inversion_pct": 1.7818424751020583
+        },
+        {
+          "temperatura_C": 45.0,
+          "tension_daN": 120.0,
+          "flecha_m": 1.52,
+          "tension_invertida_daN": 121.50018284535597,
+          "diferencia_inversion_pct": 1.2501523711299711
+        },
+        {
+          "temperatura_C": 50.0,
+          "tension_daN": 114.0,
+          "flecha_m": 1.6,
+          "tension_invertida_daN": 115.42998397931956,
+          "diferencia_inversion_pct": 1.2543719116838234
+        }
+      ],
+      "temperatura_referencia_C": 20.0,
+      "tension_referencia_daN": 165.0,
+      "flecha_referencia_m": 1.1
+    },
+    {
+      "indice": 3,
+      "tramo": "3- 4",
+      "canton_id": 3,
+      "fila_excel": 6,
+      "a_utm_m": 140.21768789992225,
+      "h_cotas_m": -13.600000000000023,
+      "a_excel_m": 140.22,
+      "h_excel_m": -15.21,
+      "vano_regulacion_excel_m": 140.0,
+      "estados_excel": [
+        {
+          "temperatura_C": -5.0,
+          "tension_daN": 172.0,
+          "flecha_m": 2.64,
+          "tension_invertida_daN": 173.6146433195102,
+          "diferencia_inversion_pct": 0.9387461159943068
+        },
+        {
+          "temperatura_C": 0.0,
+          "tension_daN": 165.0,
+          "flecha_m": 2.75,
+          "tension_invertida_daN": 166.67666498263833,
+          "diferencia_inversion_pct": 1.016160595538381
+        },
+        {
+          "temperatura_C": 5.0,
+          "tension_daN": 159.0,
+          "flecha_m": 2.85,
+          "tension_invertida_daN": 160.83438179863327,
+          "diferencia_inversion_pct": 1.1536992444234426
+        },
+        {
+          "temperatura_C": 10.0,
+          "tension_daN": 154.0,
+          "flecha_m": 2.96,
+          "tension_invertida_daN": 154.86404330478433,
+          "diferencia_inversion_pct": 0.5610670810287868
+        },
+        {
+          "temperatura_C": 15.0,
+          "tension_daN": 148.0,
+          "flecha_m": 3.06,
+          "tension_invertida_daN": 149.809153121544,
+          "diferencia_inversion_pct": 1.2224007578
+        },
+        {
+          "temperatura_C": 20.0,
+          "tension_daN": 144.0,
+          "flecha_m": 3.16,
+          "tension_invertida_daN": 145.07438558396984,
+          "diferencia_inversion_pct": 0.7461010999790574
+        },
+        {
+          "temperatura_C": 25.0,
+          "tension_daN": 139.0,
+          "flecha_m": 3.26,
+          "tension_invertida_daN": 140.63028145970895,
+          "diferencia_inversion_pct": 1.1728643595028443
+        },
+        {
+          "temperatura_C": 30.0,
+          "tension_daN": 135.0,
+          "flecha_m": 3.36,
+          "tension_invertida_daN": 136.4508885650407,
+          "diferencia_inversion_pct": 1.0747322704005287
+        },
+        {
+          "temperatura_C": 35.0,
+          "tension_daN": 132.0,
+          "flecha_m": 3.45,
+          "tension_invertida_daN": 132.8967383028821,
+          "diferencia_inversion_pct": 0.679347199153116
+        },
+        {
+          "temperatura_C": 40.0,
+          "tension_daN": 128.0,
+          "flecha_m": 3.55,
+          "tension_invertida_daN": 129.1592031521438,
+          "diferencia_inversion_pct": 0.9056274626123351
+        },
+        {
+          "temperatura_C": 45.0,
+          "tension_daN": 125.0,
+          "flecha_m": 3.64,
+          "tension_invertida_daN": 125.97114632775174,
+          "diferencia_inversion_pct": 0.7769170622013917
+        },
+        {
+          "temperatura_C": 50.0,
+          "tension_daN": 122.0,
+          "flecha_m": 3.73,
+          "tension_invertida_daN": 122.93706870130927,
+          "diferencia_inversion_pct": 0.7680890994338295
+        }
+      ],
+      "temperatura_referencia_C": 20.0,
+      "tension_referencia_daN": 144.0,
+      "flecha_referencia_m": 3.16
+    }
+  ],
+  "avisos": []
+}

@@ -1,0 +1,139 @@
+{
+  "archivo_excel": "line_example.xlsx",
+  "hoja": "Apoyos y crucetas",
+  "hoja_altura_total": "Cimen. monobloque",
+  "criterios": {
+    "columna_A": "número de apoyo",
+    "columna_B": "catálogo y modelo de armado visible en Unity",
+    "recrecido": "auditado pero todavía no aplicado al montaje",
+    "longitud_cruceta": "medida a para seleccionar el modelo",
+    "altura_total": "Altura sobre terreno > Cogolla de la pestaña de cimentación monobloque; distancia del suelo al punto más alto del apoyo",
+    "separacion_crucetas": "separación vertical"
+  },
+  "resumen": {
+    "numero_registros": 4,
+    "por_catalogo": {
+      "SERIE_C": 4
+    },
+    "por_tipo_montaje": {
+      "TRESBOLILLO": 4
+    },
+    "errores": 0,
+    "avisos": 0
+  },
+  "registros": [
+    {
+      "apoyo_numero": 1,
+      "catalogo": "SERIE_C",
+      "referencia_apoyo_origen": "Andel Serie C C-1000",
+      "modelo_armado_id": "SERIE_C_C1000",
+      "recurso_unity_armado": "ModelosArmado/Cabeza_C",
+      "cuerpo_modular_armado": {
+        "familia": "C",
+        "altura_cabeza_m": 4.2,
+        "altura_modulo_m": 0.6,
+        "recurso_modulo_a": "ModelosArmado/Modulo_C_A",
+        "recurso_modulo_b": "ModelosArmado/Modulo_C_B",
+        "primer_patron_bajo_cabeza": "B"
+      },
+      "altura_normalizada_m": 14.0,
+      "recrecido_cabeza_m": null,
+      "altura_total_m": 12.12,
+      "armado_base_origen": "Tresbolillo",
+      "tipo_montaje": "TRESBOLILLO",
+      "a_cruceta_m": 1.25,
+      "referencia_armado_origen": "TB-18",
+      "separacion_vertical_crucetas_m": 1.8,
+      "altura_cupula_m": null,
+      "referencia_cruceta_origen": "TB45-S12",
+      "tipo_cruceta_origen": "ATC-12",
+      "es_atirantada": true,
+      "fila_excel": 5
+    },
+    {
+      "apoyo_numero": 2,
+      "catalogo": "SERIE_C",
+      "referencia_apoyo_origen": "Andel Serie C C-2000",
+      "modelo_armado_id": "SERIE_C_C2000",
+      "recurso_unity_armado": "ModelosArmado/Cabeza_C",
+      "cuerpo_modular_armado": {
+        "familia": "C",
+        "altura_cabeza_m": 4.2,
+        "altura_modulo_m": 0.6,
+        "recurso_modulo_a": "ModelosArmado/Modulo_C_A",
+        "recurso_modulo_b": "ModelosArmado/Modulo_C_B",
+        "primer_patron_bajo_cabeza": "B"
+      },
+      "altura_normalizada_m": 20.0,
+      "recrecido_cabeza_m": null,
+      "altura_total_m": 17.84,
+      "armado_base_origen": "Tresbolillo",
+      "tipo_montaje": "TRESBOLILLO",
+      "a_cruceta_m": 1.25,
+      "referencia_armado_origen": "TB-18",
+      "separacion_vertical_crucetas_m": 1.8,
+      "altura_cupula_m": null,
+      "referencia_cruceta_origen": "TB45-S12",
+      "tipo_cruceta_origen": "ATC-12",
+      "es_atirantada": true,
+      "fila_excel": 6
+    },
+    {
+      "apoyo_numero": 3,
+      "catalogo": "SERIE_C",
+      "referencia_apoyo_origen": "Andel Serie C C-2000",
+      "modelo_armado_id": "SERIE_C_C2000",
+      "recurso_unity_armado": "ModelosArmado/Cabeza_C",
+      "cuerpo_modular_armado": {
+        "familia": "C",
+        "altura_cabeza_m": 4.2,
+        "altura_modulo_m": 0.6,
+        "recurso_modulo_a": "ModelosArmado/Modulo_C_A",
+        "recurso_modulo_b": "ModelosArmado/Modulo_C_B",
+        "primer_patron_bajo_cabeza": "B"
+      },
+      "altura_normalizada_m": 18.0,
+      "recrecido_cabeza_m": null,
+      "altura_total_m": 15.87,
+      "armado_base_origen": "Tresbolillo",
+      "tipo_montaje": "TRESBOLILLO",
+      "a_cruceta_m": 1.25,
+      "referencia_armado_origen": "TB-18",
+      "separacion_vertical_crucetas_m": 1.8,
+      "altura_cupula_m": null,
+      "referencia_cruceta_origen": "TB45-S12",
+      "tipo_cruceta_origen": "ATC-12",
+      "es_atirantada": true,
+      "fila_excel": 7
+    },
+    {
+      "apoyo_numero": 4,
+      "catalogo": "SERIE_C",
+      "referencia_apoyo_origen": "Andel Serie C C-2000",
+      "modelo_armado_id": "SERIE_C_C2000",
+      "recurso_unity_armado": "ModelosArmado/Cabeza_C",
+      "cuerpo_modular_armado": {
+        "familia": "C",
+        "altura_cabeza_m": 4.2,
+        "altura_modulo_m": 0.6,
+        "recurso_modulo_a": "ModelosArmado/Modulo_C_A",
+        "recurso_modulo_b": "ModelosArmado/Modulo_C_B",
+        "primer_patron_bajo_cabeza": "B"
+      },
+      "altura_normalizada_m": 18.0,
+      "recrecido_cabeza_m": null,
+      "altura_total_m": 15.74,
+      "armado_base_origen": "Tresbolillo",
+      "tipo_montaje": "TRESBOLILLO",
+      "a_cruceta_m": 1.25,
+      "referencia_armado_origen": "TB-18",
+      "separacion_vertical_crucetas_m": 1.8,
+      "altura_cupula_m": null,
+      "referencia_cruceta_origen": "TB45-S12",
+      "tipo_cruceta_origen": "ATC-12",
+      "es_atirantada": true,
+      "fila_excel": 8
+    }
+  ],
+  "incidencias": []
+}

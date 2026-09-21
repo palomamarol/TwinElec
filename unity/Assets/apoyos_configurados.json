@@ -1,0 +1,284 @@
+{
+  "version_esquema": 1,
+  "fuente": "line_example.xlsx",
+  "catalogo_modelos": "blender/scripts/crear_semicrucetas_andel.py",
+  "resumen": {
+    "numero_apoyos": 4,
+    "configuraciones_unicas": 4,
+    "apoyos_validos": 4,
+    "apoyos_con_error": 0
+  },
+  "apoyos": [
+    {
+      "apoyo_id": "APOYO_0001",
+      "configuracion_id": "CFG1__SERIE_C__SERIE_C_C1000__TRESBOLILLO__C_ATC-12__A1250__SEP1800__H12120",
+      "catalogo_id": "CATALOGO_SERIE_C",
+      "armado": {
+        "modelo_id": "SERIE_C_C1000",
+        "referencia_origen": "Andel Serie C C-1000",
+        "recurso_unity": "ModelosArmado/Cabeza_C",
+        "familia": "C",
+        "altura_cabeza_m": 4.2,
+        "altura_modulo_m": 0.6,
+        "recurso_modulo_a": "ModelosArmado/Modulo_C_A",
+        "recurso_modulo_b": "ModelosArmado/Modulo_C_B",
+        "primer_patron_bajo_cabeza": "B"
+      },
+      "apoyo": {
+        "numero": 1,
+        "altura_normalizada_m": 14.0,
+        "altura_total_m": 12.12,
+        "recrecido_cabeza_m": null
+      },
+      "montaje": {
+        "montaje_id": "MONTAJE_TRESBOLILLO",
+        "tipo": "TRESBOLILLO",
+        "referencia_armado": "TB-18",
+        "separacion_vertical_m": 1.8,
+        "altura_cupula_m": null,
+        "lado_inicial": 1
+      },
+      "cruceta": {
+        "modelo_id": "C_ATC-12",
+        "tipo_origen": "ATC-12",
+        "referencia_origen": "TB45-S12",
+        "a_m": 1.25,
+        "es_atirantada": true
+      },
+      "origen": {
+        "fila_excel": 5,
+        "apoyo_numero": 1,
+        "archivo_auditoria": "auditoria_apoyos_crucetas.json"
+      },
+      "validacion": {
+        "estado": "VALIDO",
+        "errores": []
+      },
+      "tipo_clave": "principio_final_de_linea",
+      "tipo_texto": "P.Línea",
+      "coef_seguridad": "N",
+      "cadena": {
+        "nombre": "LA56-20kV-ANC-SIM-VID",
+        "denominacion": "Cadena de vidrio y anclaje simple para conductor LA-56 y 20 kV de tensión",
+        "conductor": "LA-56",
+        "tension_kv": 20,
+        "tipo": "ANC",
+        "material": "VID",
+        "doble": false,
+        "n_cadenas": 1,
+        "caracteristicas": {
+          "longitud_m": 0.531,
+          "peso_daN": 6.18,
+          "carga_rotura_daN": 4000.0,
+          "esfuerzo_viento_120_daN": 6.505,
+          "esfuerzo_viento_140_daN": 8.854,
+          "esfuerzo_viento_60_daN": 1.626
+        }
+      }
+    },
+    {
+      "apoyo_id": "APOYO_0002",
+      "configuracion_id": "CFG1__SERIE_C__SERIE_C_C2000__TRESBOLILLO__C_ATC-12__A1250__SEP1800__H17840",
+      "catalogo_id": "CATALOGO_SERIE_C",
+      "armado": {
+        "modelo_id": "SERIE_C_C2000",
+        "referencia_origen": "Andel Serie C C-2000",
+        "recurso_unity": "ModelosArmado/Cabeza_C",
+        "familia": "C",
+        "altura_cabeza_m": 4.2,
+        "altura_modulo_m": 0.6,
+        "recurso_modulo_a": "ModelosArmado/Modulo_C_A",
+        "recurso_modulo_b": "ModelosArmado/Modulo_C_B",
+        "primer_patron_bajo_cabeza": "B"
+      },
+      "apoyo": {
+        "numero": 2,
+        "altura_normalizada_m": 20.0,
+        "altura_total_m": 17.84,
+        "recrecido_cabeza_m": null
+      },
+      "montaje": {
+        "montaje_id": "MONTAJE_TRESBOLILLO",
+        "tipo": "TRESBOLILLO",
+        "referencia_armado": "TB-18",
+        "separacion_vertical_m": 1.8,
+        "altura_cupula_m": null,
+        "lado_inicial": 1
+      },
+      "cruceta": {
+        "modelo_id": "C_ATC-12",
+        "tipo_origen": "ATC-12",
+        "referencia_origen": "TB45-S12",
+        "a_m": 1.25,
+        "es_atirantada": true
+      },
+      "origen": {
+        "fila_excel": 6,
+        "apoyo_numero": 2,
+        "archivo_auditoria": "auditoria_apoyos_crucetas.json"
+      },
+      "validacion": {
+        "estado": "VALIDO",
+        "errores": []
+      },
+      "tipo_clave": "angulo_anclaje",
+      "tipo_texto": "Áng-Anc",
+      "coef_seguridad": "N",
+      "angulo": 172.0,
+      "cadena": {
+        "nombre": "LA56-20kV-ANC-SIM-VID",
+        "denominacion": "Cadena de vidrio y anclaje simple para conductor LA-56 y 20 kV de tensión",
+        "conductor": "LA-56",
+        "tension_kv": 20,
+        "tipo": "ANC",
+        "material": "VID",
+        "doble": false,
+        "n_cadenas": 2,
+        "caracteristicas": {
+          "longitud_m": 0.531,
+          "peso_daN": 6.18,
+          "carga_rotura_daN": 4000.0,
+          "esfuerzo_viento_120_daN": 6.505,
+          "esfuerzo_viento_140_daN": 8.854,
+          "esfuerzo_viento_60_daN": 1.626
+        }
+      }
+    },
+    {
+      "apoyo_id": "APOYO_0003",
+      "configuracion_id": "CFG1__SERIE_C__SERIE_C_C2000__TRESBOLILLO__C_ATC-12__A1250__SEP1800__H15870",
+      "catalogo_id": "CATALOGO_SERIE_C",
+      "armado": {
+        "modelo_id": "SERIE_C_C2000",
+        "referencia_origen": "Andel Serie C C-2000",
+        "recurso_unity": "ModelosArmado/Cabeza_C",
+        "familia": "C",
+        "altura_cabeza_m": 4.2,
+        "altura_modulo_m": 0.6,
+        "recurso_modulo_a": "ModelosArmado/Modulo_C_A",
+        "recurso_modulo_b": "ModelosArmado/Modulo_C_B",
+        "primer_patron_bajo_cabeza": "B"
+      },
+      "apoyo": {
+        "numero": 3,
+        "altura_normalizada_m": 18.0,
+        "altura_total_m": 15.87,
+        "recrecido_cabeza_m": null
+      },
+      "montaje": {
+        "montaje_id": "MONTAJE_TRESBOLILLO",
+        "tipo": "TRESBOLILLO",
+        "referencia_armado": "TB-18",
+        "separacion_vertical_m": 1.8,
+        "altura_cupula_m": null,
+        "lado_inicial": 1
+      },
+      "cruceta": {
+        "modelo_id": "C_ATC-12",
+        "tipo_origen": "ATC-12",
+        "referencia_origen": "TB45-S12",
+        "a_m": 1.25,
+        "es_atirantada": true
+      },
+      "origen": {
+        "fila_excel": 7,
+        "apoyo_numero": 3,
+        "archivo_auditoria": "auditoria_apoyos_crucetas.json"
+      },
+      "validacion": {
+        "estado": "VALIDO",
+        "errores": []
+      },
+      "tipo_clave": "angulo_anclaje",
+      "tipo_texto": "Áng-Anc",
+      "coef_seguridad": "N",
+      "angulo": 172.0,
+      "cadena": {
+        "nombre": "LA56-20kV-ANC-SIM-VID",
+        "denominacion": "Cadena de vidrio y anclaje simple para conductor LA-56 y 20 kV de tensión",
+        "conductor": "LA-56",
+        "tension_kv": 20,
+        "tipo": "ANC",
+        "material": "VID",
+        "doble": false,
+        "n_cadenas": 2,
+        "caracteristicas": {
+          "longitud_m": 0.531,
+          "peso_daN": 6.18,
+          "carga_rotura_daN": 4000.0,
+          "esfuerzo_viento_120_daN": 6.505,
+          "esfuerzo_viento_140_daN": 8.854,
+          "esfuerzo_viento_60_daN": 1.626
+        }
+      }
+    },
+    {
+      "apoyo_id": "APOYO_0004",
+      "configuracion_id": "CFG1__SERIE_C__SERIE_C_C2000__TRESBOLILLO__C_ATC-12__A1250__SEP1800__H15740",
+      "catalogo_id": "CATALOGO_SERIE_C",
+      "armado": {
+        "modelo_id": "SERIE_C_C2000",
+        "referencia_origen": "Andel Serie C C-2000",
+        "recurso_unity": "ModelosArmado/Cabeza_C",
+        "familia": "C",
+        "altura_cabeza_m": 4.2,
+        "altura_modulo_m": 0.6,
+        "recurso_modulo_a": "ModelosArmado/Modulo_C_A",
+        "recurso_modulo_b": "ModelosArmado/Modulo_C_B",
+        "primer_patron_bajo_cabeza": "B"
+      },
+      "apoyo": {
+        "numero": 4,
+        "altura_normalizada_m": 18.0,
+        "altura_total_m": 15.74,
+        "recrecido_cabeza_m": null
+      },
+      "montaje": {
+        "montaje_id": "MONTAJE_TRESBOLILLO",
+        "tipo": "TRESBOLILLO",
+        "referencia_armado": "TB-18",
+        "separacion_vertical_m": 1.8,
+        "altura_cupula_m": null,
+        "lado_inicial": 1
+      },
+      "cruceta": {
+        "modelo_id": "C_ATC-12",
+        "tipo_origen": "ATC-12",
+        "referencia_origen": "TB45-S12",
+        "a_m": 1.25,
+        "es_atirantada": true
+      },
+      "origen": {
+        "fila_excel": 8,
+        "apoyo_numero": 4,
+        "archivo_auditoria": "auditoria_apoyos_crucetas.json"
+      },
+      "validacion": {
+        "estado": "VALIDO",
+        "errores": []
+      },
+      "tipo_clave": "principio_final_de_linea",
+      "tipo_texto": "F.Línea",
+      "coef_seguridad": "N",
+      "cadena": {
+        "nombre": "LA56-20kV-ANC-SIM-VID",
+        "denominacion": "Cadena de vidrio y anclaje simple para conductor LA-56 y 20 kV de tensión",
+        "conductor": "LA-56",
+        "tension_kv": 20,
+        "tipo": "ANC",
+        "material": "VID",
+        "doble": false,
+        "n_cadenas": 1,
+        "caracteristicas": {
+          "longitud_m": 0.531,
+          "peso_daN": 6.18,
+          "carga_rotura_daN": 4000.0,
+          "esfuerzo_viento_120_daN": 6.505,
+          "esfuerzo_viento_140_daN": 8.854,
+          "esfuerzo_viento_60_daN": 1.626
+        }
+      }
+    }
+  ],
+  "errores": []
+}

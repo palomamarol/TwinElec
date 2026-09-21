@@ -1,0 +1,70 @@
+{
+  "nombre": "Verificación Nivel 3 - Coherencia física y robustez",
+  "coherencia": [
+    {
+      "prueba": "A1 más viento -> más I",
+      "detalle": "I(2m/s)=192.5 -> I(4m/s)=238.8",
+      "ok": true
+    },
+    {
+      "prueba": "A2 perpendicular -> más I que paralelo",
+      "detalle": "I(paralelo)=100.3 < I(perp)=192.5",
+      "ok": true
+    },
+    {
+      "prueba": "A3 más Ta -> menos I",
+      "detalle": "I(Ta=30)=192.5 > I(Ta=40)=110.0",
+      "ok": true
+    },
+    {
+      "prueba": "A4 noche -> qs=0 y más I",
+      "detalle": "qs(noche)=0.00 (base=7.98), I=223.9",
+      "ok": true
+    },
+    {
+      "prueba": "A5 mayor Ts -> más I",
+      "detalle": "I(Ts=50)=192.5 < I(Ts=70)=296.8",
+      "ok": true
+    },
+    {
+      "prueba": "A6 sin viento -> qc=qcn",
+      "detalle": "qc=4.80 = qcn=4.80",
+      "ok": true
+    },
+    {
+      "prueba": "A7 sin margen -> I=0 y radicando no negativo",
+      "detalle": "I=0.0, radicando=0.0",
+      "ok": true
+    }
+  ],
+  "robustez": [
+    {
+      "prueba": "B1 diámetro cero -> error controlado",
+      "detalle": "resultado=ERROR_VALOR: El diámetro del conductor debe ser mayor que 0 mm.",
+      "ok": true
+    },
+    {
+      "prueba": "B2 R negativa -> I=0 controlado",
+      "detalle": "resultado=0.0",
+      "ok": true
+    },
+    {
+      "prueba": "B3 Ta>Ts -> sin NaN/crash",
+      "detalle": "I=0.0",
+      "ok": true
+    },
+    {
+      "prueba": "B4 dirección 450° -> phi normalizada",
+      "detalle": "phi=84.74400000000003",
+      "ok": true
+    },
+    {
+      "prueba": "B5 viento ausente -> sin crash (calma)",
+      "detalle": "I=14.604691180639655",
+      "ok": true
+    }
+  ],
+  "total_pass": 12,
+  "total_pruebas": 12,
+  "veredicto": "PASS"
+}

@@ -1,0 +1,463 @@
+{
+  "version": 1,
+  "fuente": "Electrical resistance reference table used for DLR validation",
+  "nota": "Clave = codigo antiguo normalizado (sin espacios). R a 25 y 70 C en ohm/km.",
+  "conductores": {
+    "D40": {
+      "codigo": "43-AL3",
+      "codigo_antiguo": "D 40",
+      "r_low_ohm_km": 0.7601,
+      "r_high_ohm_km": 0.7609,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "D56": {
+      "codigo": "55-AL3",
+      "codigo_antiguo": "D 56",
+      "r_low_ohm_km": 0.6001,
+      "r_high_ohm_km": 0.6007,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "D80": {
+      "codigo": "76-AL3",
+      "codigo_antiguo": "D 80",
+      "r_low_ohm_km": 0.4401,
+      "r_high_ohm_km": 0.4405,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "D110": {
+      "codigo": "117-AL3",
+      "codigo_antiguo": "D 110",
+      "r_low_ohm_km": 0.28,
+      "r_high_ohm_km": 0.2803,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "D145": {
+      "codigo": "148-AL3",
+      "codigo_antiguo": "D 145",
+      "r_low_ohm_km": 0.22,
+      "r_high_ohm_km": 0.2203,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "D180": {
+      "codigo": "188-AL3",
+      "codigo_antiguo": "D 180",
+      "r_low_ohm_km": 0.18,
+      "r_high_ohm_km": 0.1802,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "D280": {
+      "codigo": "279-AL3",
+      "codigo_antiguo": "D 280",
+      "r_low_ohm_km": 0.12,
+      "r_high_ohm_km": 0.1201,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "D400": {
+      "codigo": "381-AL3",
+      "codigo_antiguo": "D 400",
+      "r_low_ohm_km": 0.09,
+      "r_high_ohm_km": 0.0901,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "D450": {
+      "codigo": "454-AL3",
+      "codigo_antiguo": "D 450",
+      "r_low_ohm_km": 0.07,
+      "r_high_ohm_km": 0.0701,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "D550": {
+      "codigo": "547-AL3",
+      "codigo_antiguo": "D 550",
+      "r_low_ohm_km": 0.06,
+      "r_high_ohm_km": 0.0601,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "D630": {
+      "codigo": "638-AL3",
+      "codigo_antiguo": "D 630",
+      "r_low_ohm_km": 0.05,
+      "r_high_ohm_km": 0.0501,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "DA30": {
+      "codigo": "27-AL2/4-ST1A",
+      "codigo_antiguo": "DA 30",
+      "r_low_ohm_km": 1.2401,
+      "r_high_ohm_km": 1.2412,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "DA56": {
+      "codigo": "47-AL3/8-ST1A",
+      "codigo_antiguo": "DA 56",
+      "r_low_ohm_km": 0.7101,
+      "r_high_ohm_km": 0.7107,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "DA78": {
+      "codigo": "67-AL3/1 1-ST 1A",
+      "codigo_antiguo": "DA 78",
+      "r_low_ohm_km": 0.49,
+      "r_high_ohm_km": 0.4905,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "DA110": {
+      "codigo": "94-AL3/22-ST1A",
+      "codigo_antiguo": "DA 110",
+      "r_low_ohm_km": 0.35,
+      "r_high_ohm_km": 0.3503,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "DA145": {
+      "codigo": "119-AL3/28-ST1A",
+      "codigo_antiguo": "DA 145",
+      "r_low_ohm_km": 0.28,
+      "r_high_ohm_km": 0.2802,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "DA180": {
+      "codigo": "147-AL3/34-ST1A",
+      "codigo_antiguo": "DA 180",
+      "r_low_ohm_km": 0.23,
+      "r_high_ohm_km": 0.2302,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "DA280": {
+      "codigo": "226-AL3/53-ST1A",
+      "codigo_antiguo": "DA 280",
+      "r_low_ohm_km": 0.15,
+      "r_high_ohm_km": 0.1501,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LARL30MENORESA30KV": {
+      "codigo": "27-ALl/4-A20SA (menores a 30kV)",
+      "codigo_antiguo": "LARL 30 (menores a 30kV)",
+      "r_low_ohm_km": 1.0201,
+      "r_high_ohm_km": 1.021,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LARL56": {
+      "codigo": "47-ALl/8-A20SA",
+      "codigo_antiguo": "LARL 56",
+      "r_low_ohm_km": 0.5801,
+      "r_high_ohm_km": 0.5806,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LARL78": {
+      "codigo": "67-ALl/l l-A20SA",
+      "codigo_antiguo": "LARL 78",
+      "r_low_ohm_km": 0.4,
+      "r_high_ohm_km": 0.4004,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LARL110": {
+      "codigo": "96-ALl/16-A20SA",
+      "codigo_antiguo": "LARL 110",
+      "r_low_ohm_km": 0.28,
+      "r_high_ohm_km": 0.2803,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LARL125EPENGUIN": {
+      "codigo": "107-ALl/18-A20SA",
+      "codigo_antiguo": "LARL 125E/PENGUIN",
+      "r_low_ohm_km": 0.25,
+      "r_high_ohm_km": 0.2502,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LARL145": {
+      "codigo": "119-AL1/28-A20SA",
+      "codigo_antiguo": "LARL 145",
+      "r_low_ohm_km": 0.22,
+      "r_high_ohm_km": 0.2202,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LARL145E": {
+      "codigo": "117-AL1/31-A20SA",
+      "codigo_antiguo": "LARL 145 E",
+      "r_low_ohm_km": 0.23,
+      "r_high_ohm_km": 0.2302,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LARL175OSTRICH": {
+      "codigo": "152-ALl/25-A20SA",
+      "codigo_antiguo": "LARL 175/OSTRICH",
+      "r_low_ohm_km": 0.18,
+      "r_high_ohm_km": 0.1802,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LARL180": {
+      "codigo": "147-ALl/34-A20SA",
+      "codigo_antiguo": "LARL 180",
+      "r_low_ohm_km": 0.18,
+      "r_high_ohm_km": 0.1802,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LARL280HAWK": {
+      "codigo": "242-ALl/39-A20SA",
+      "codigo_antiguo": "LARL 280 /HAWK",
+      "r_low_ohm_km": 0.11,
+      "r_high_ohm_km": 0.1101,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LARL380GULL": {
+      "codigo": "337-ALl/44-A20SA",
+      "codigo_antiguo": "LARL 380 /GULL",
+      "r_low_ohm_km": 0.08,
+      "r_high_ohm_km": 0.0801,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LARL432TERN": {
+      "codigo": "404-ALl/28-A20SA",
+      "codigo_antiguo": "LARL 432 /TERN",
+      "r_low_ohm_km": 0.07,
+      "r_high_ohm_km": 0.0701,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LARL455CONDOR": {
+      "codigo": "402-ALl/52-A20SA",
+      "codigo_antiguo": "LARL 455/ CONDOR",
+      "r_low_ohm_km": 0.07,
+      "r_high_ohm_km": 0.0701,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LARL517RAIL": {
+      "codigo": "484.ALl/34-A20SA",
+      "codigo_antiguo": "LARL517/RAIL",
+      "r_low_ohm_km": 0.06,
+      "r_high_ohm_km": 0.0601,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LARL545CARDINAL": {
+      "codigo": "485-ALl/63-A20SA",
+      "codigo_antiguo": "LARL 545 /CARDINAL",
+      "r_low_ohm_km": 0.06,
+      "r_high_ohm_km": 0.0601,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LARL600BLUEJAY": {
+      "codigo": "565-Al/39-A20SA",
+      "codigo_antiguo": "LARL 600/BLUEJA Y",
+      "r_low_ohm_km": 0.05,
+      "r_high_ohm_km": 0.05,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LARL635FINCH": {
+      "codigo": "565-ALl/72-A20SA",
+      "codigo_antiguo": "LARL 635 /FINCH",
+      "r_low_ohm_km": 0.05,
+      "r_high_ohm_km": 0.05,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LARL820PLOVER": {
+      "codigo": "727-Al/92-A20SA",
+      "codigo_antiguo": "LARL 820!PLOVER",
+      "r_low_ohm_km": 0.04,
+      "r_high_ohm_km": 0.04,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LARL860LAPWING": {
+      "codigo": "804-ALl/56-A20SA",
+      "codigo_antiguo": "LARL 860/LAPWING",
+      "r_low_ohm_km": 0.04,
+      "r_high_ohm_km": 0.04,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "L80": {
+      "codigo": "76-Al1",
+      "codigo_antiguo": "L-80",
+      "r_low_ohm_km": 0.38,
+      "r_high_ohm_km": 0.3804,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "L110": {
+      "codigo": "117-Al1",
+      "codigo_antiguo": "L-110",
+      "r_low_ohm_km": 0.25,
+      "r_high_ohm_km": 0.2503,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "L145": {
+      "codigo": "148-Al1",
+      "codigo_antiguo": "L-145",
+      "r_low_ohm_km": 0.19,
+      "r_high_ohm_km": 0.1902,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "L180": {
+      "codigo": "188-Al1",
+      "codigo_antiguo": "L-180",
+      "r_low_ohm_km": 0.15,
+      "r_high_ohm_km": 0.1502,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "L280": {
+      "codigo": "279-Al1",
+      "codigo_antiguo": "L-280",
+      "r_low_ohm_km": 0.1,
+      "r_high_ohm_km": 0.1001,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "L400": {
+      "codigo": "381-Al1",
+      "codigo_antiguo": "L-400",
+      "r_low_ohm_km": 0.08,
+      "r_high_ohm_km": 0.0801,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "L450": {
+      "codigo": "454-Al1",
+      "codigo_antiguo": "L-450",
+      "r_low_ohm_km": 0.06,
+      "r_high_ohm_km": 0.0601,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "L550": {
+      "codigo": "547-Al1",
+      "codigo_antiguo": "L-550",
+      "r_low_ohm_km": 0.05,
+      "r_high_ohm_km": 0.0501,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "L650": {
+      "codigo": "638-Al1",
+      "codigo_antiguo": "L-650",
+      "r_low_ohm_km": 0.05,
+      "r_high_ohm_km": 0.0501,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LA30MENORESA30KV": {
+      "codigo": "27-ALl/4-\nST1A (menores a 30kV)",
+      "codigo_antiguo": "LA-30 (menores a 30kV)",
+      "r_low_ohm_km": 1.0701,
+      "r_high_ohm_km": 1.071,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LA56": {
+      "codigo": "47-AL1/8-\nST1A",
+      "codigo_antiguo": "LA-56",
+      "r_low_ohm_km": 0.6101,
+      "r_high_ohm_km": 0.6106,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LA78": {
+      "codigo": "67-AL1/11-\nST1A",
+      "codigo_antiguo": "LA-78",
+      "r_low_ohm_km": 0.42,
+      "r_high_ohm_km": 0.4204,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LA110": {
+      "codigo": "94-AL1/22-\nST1A",
+      "codigo_antiguo": "LA-110",
+      "r_low_ohm_km": 0.31,
+      "r_high_ohm_km": 0.3103,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LA145": {
+      "codigo": "119-\nAL1/28-\nST1A",
+      "codigo_antiguo": "LA-145",
+      "r_low_ohm_km": 0.24,
+      "r_high_ohm_km": 0.2402,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LA180": {
+      "codigo": "147-\nAL1/34- ST1A",
+      "codigo_antiguo": "LA-180",
+      "r_low_ohm_km": 0.2,
+      "r_high_ohm_km": 0.2002,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LA280HAWK": {
+      "codigo": "242-\nAL1/39- ST1A",
+      "codigo_antiguo": "LA-280\nHawk",
+      "r_low_ohm_km": 0.12,
+      "r_high_ohm_km": 0.1201,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LA380GULL": {
+      "codigo": "337-\nAL1/44- ST1A",
+      "codigo_antiguo": "LA-380\nGull",
+      "r_low_ohm_km": 0.09,
+      "r_high_ohm_km": 0.0901,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LA455C6NDOR": {
+      "codigo": "402-\nALl/52-\nST1A",
+      "codigo_antiguo": "LA-455\nC6ndor",
+      "r_low_ohm_km": 0.07,
+      "r_high_ohm_km": 0.0701,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LA545CARDINAL": {
+      "codigo": "485-\nAL1/63- ST1A",
+      "codigo_antiguo": "LA-545\nCardinal",
+      "r_low_ohm_km": 0.06,
+      "r_high_ohm_km": 0.0601,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    },
+    "LA635FINCH": {
+      "codigo": "565-AL1/72- ST1A",
+      "codigo_antiguo": "LA-635\nFinch",
+      "r_low_ohm_km": 0.05,
+      "r_high_ohm_km": 0.05,
+      "t_low_C": 25.0,
+      "t_high_C": 70.0
+    }
+  }
+}

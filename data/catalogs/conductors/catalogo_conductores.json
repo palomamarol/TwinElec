@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "unidad_diametro": "mm",
+  "fuentes": [
+    "NI 54.63.01_E09_may19-.pdf",
+    "Catálogo de conductores alta tension Trefil Cable.pdf",
+    "Tema 1 - Conductores - 2015.pdf, tabla 5, pagina 11"
+  ],
+  "propiedades_mecanicas_por_composicion": [
+    {"composicion": "6+1", "modulo_elasticidad_kgf_mm2": 8100, "modulo_elasticidad_daN_mm2": 7900, "coef_dilatacion_1_C": 0.0000191},
+    {"composicion": "6+7", "modulo_elasticidad_kgf_mm2": 7700, "modulo_elasticidad_daN_mm2": 7500, "coef_dilatacion_1_C": 0.0000198},
+    {"composicion": "26+7", "modulo_elasticidad_kgf_mm2": 7700, "modulo_elasticidad_daN_mm2": 7500, "coef_dilatacion_1_C": 0.0000189},
+    {"composicion": "30+7", "modulo_elasticidad_kgf_mm2": 8200, "modulo_elasticidad_daN_mm2": 8000, "coef_dilatacion_1_C": 0.0000178},
+    {"composicion": "30+19", "modulo_elasticidad_kgf_mm2": 8000, "modulo_elasticidad_daN_mm2": 7800, "coef_dilatacion_1_C": 0.0000180},
+    {"composicion": "54+7", "modulo_elasticidad_kgf_mm2": 7000, "modulo_elasticidad_daN_mm2": 6900, "coef_dilatacion_1_C": 0.0000193},
+    {"composicion": "54+19", "modulo_elasticidad_kgf_mm2": 6800, "modulo_elasticidad_daN_mm2": 6700, "coef_dilatacion_1_C": 0.0000194}
+  ],
+  "conductores": [
+    {"designacion": "27-AL1/4-ST1A", "aliases": ["LA 30", "LA-30"], "composicion": "6+1", "diametro_mm": 7.14, "seccion_mm2": 31.1, "masa_kg_km": 107.8},
+    {"designacion": "47-AL1/8-ST1A", "aliases": ["LA 56", "LA-56"], "composicion": "6+1", "diametro_mm": 9.45, "seccion_mm2": 54.6, "masa_kg_km": 189.1},
+    {"designacion": "67-AL1/11-ST1A", "aliases": ["LA 78", "LA-78"], "composicion": "6+1", "diametro_mm": 11.34, "seccion_mm2": 78.6, "masa_kg_km": 272.0},
+    {"designacion": "94-AL1/22-ST1A", "aliases": ["LA 110", "LA-110"], "composicion": "30+7", "diametro_mm": 14.00, "seccion_mm2": 116.2, "masa_kg_km": 432.5},
+    {"designacion": "100-AL1/17-ST1A", "aliases": [], "composicion": "6+1", "diametro_mm": 13.80, "seccion_mm2": 116.7, "masa_kg_km": 404.0},
+    {"designacion": "107-AL1/18-ST1A", "aliases": ["LA 125", "LA-125", "PENGUIN"], "composicion": "6+1", "diametro_mm": 14.31, "seccion_mm2": 125.1, "masa_kg_km": 433.0},
+    {"designacion": "119-AL1/28-ST1A", "aliases": ["LA 145", "LA-145"], "composicion": "30+7", "diametro_mm": 15.80, "seccion_mm2": 147.1, "masa_kg_km": 547.4},
+    {"designacion": "152-AL1/25-ST1A", "aliases": ["LA 175", "LA-175", "OSTRICH"], "composicion": "26+7", "diametro_mm": 17.28, "seccion_mm2": 176.7, "masa_kg_km": 613.0},
+    {"designacion": "147-AL1/34-ST1A", "aliases": ["LA 180", "LA-180"], "composicion": "30+7", "diametro_mm": 17.50, "seccion_mm2": 181.6, "masa_kg_km": 676.0},
+    {"designacion": "242-AL1/39-ST1A", "aliases": ["LA 280", "LA-280", "HAWK"], "composicion": "26+7", "diametro_mm": 21.80, "seccion_mm2": 281.1, "masa_kg_km": 977.0},
+    {"designacion": "337-AL1/44-ST1A", "aliases": ["LA 380", "LA-380", "GULL"], "composicion": "54+7", "diametro_mm": 25.38, "seccion_mm2": 381.0, "masa_kg_km": 1275.0},
+    {"designacion": "402-AL1/52-ST1A", "aliases": ["LA 455", "LA-455", "CONDOR"], "composicion": "54+7", "diametro_mm": 27.72, "seccion_mm2": 454.5, "masa_kg_km": 1521.0},
+    {"designacion": "483-AL1/33-ST1A", "aliases": ["LA 510", "LA-510", "RAIL"], "composicion": "45+7", "diametro_mm": 29.59, "seccion_mm2": 516.8, "masa_kg_km": 1600.0, "modulo_elasticidad_daN_mm2": 6600, "coef_dilatacion_1_C": 0.0000209, "fuente_propiedades": "NI 54.63.01_E09_may19-.pdf"},
+    {"designacion": "485-AL1/63-ST1A", "aliases": ["LA 545", "LA-545", "CARDINAL"], "composicion": "54+7", "diametro_mm": 30.42, "seccion_mm2": 547.3, "masa_kg_km": 1832.0},
+    {"designacion": "565-AL1/72-ST1A", "aliases": ["LA 635", "LA-635", "FINCH"], "composicion": "54+19", "diametro_mm": 32.85, "seccion_mm2": 636.6, "masa_kg_km": 2125.0},
+  {"designacion": "806-AL1/56-ST1A", "aliases": ["LA 860", "LA-860", "LAPWING"], "composicion": "45+7", "diametro_mm": 38.16, "seccion_mm2": 861.3, "masa_kg_km": 2666.0, "modulo_elasticidad_daN_mm2": 6600, "coef_dilatacion_1_C": 0.0000209, "fuente_propiedades": "NI 54.63.01_E09_may19-.pdf"}
+  ]
+}

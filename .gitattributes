@@ -1,0 +1,19 @@
+* text=auto
+*.cs text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.unity text eol=lf
+*.meta text eol=lf
+
+*.blend binary
+*.fbx binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.docx binary
+*.xlsx binary
+*.tif binary
+*.tiff binary

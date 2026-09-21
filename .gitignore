@@ -1,0 +1,60 @@
+# Unity generated state
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Uu]ser[Ss]ettings/
+*.csproj
+*.sln
+*.slnx
+
+# Python
+__pycache__/
+*.py[cod]
+*.log
+.venv/
+env/
+.uv-cache*/
+.pytest_cache/
+
+# Build output (release/README.md remains versioned)
+build/
+dist/
+motor_build/
+motor_dist/
+release/TwinElec/
+release/.motor_build/
+
+# Credentials and local configuration
+secrets.local.json
+secrets.local.json.json
+.env
+.env.*
+!.env.example
+
+# Large external geospatial/reference inputs
+data/reference/
+data/**/*.tif
+data/**/*.tiff
+!data/examples/demo_line/PNOA_MDT05_SAMPLE_HU30.tif
+
+# Temporary and recovery files
+_archive_local/
+_scratch*/
+_tmp*/
+*.tmp
+*.bak
+*.blend1
+*.dmp
+*.dump
+*.lock
+.~lock.*#
+~$*.xlsx
+
+# Office/OS/editor state
+*.odt
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

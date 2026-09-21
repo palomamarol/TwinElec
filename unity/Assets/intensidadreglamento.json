@@ -1,0 +1,12 @@
+{
+  "fecha_generacion": "2026-09-21T10:16:27",
+  "conductor": "47-AL1/8-ST1A",
+  "resultado": {
+    "seccion_mm2": 54.6,
+    "material": "LA",
+    "densidad_tabla_A_mm2": 3.3,
+    "factor_reduccion": 0.937,
+    "densidad_corregida_A_mm2": 3.0921,
+    "intensidad_reglamento_A": 168.82865999999999
+  }
+}

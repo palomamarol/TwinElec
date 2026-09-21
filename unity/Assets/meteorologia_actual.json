@@ -1,0 +1,33 @@
+{
+  "version_esquema": 3,
+  "fecha_generacion": "",
+  "calidad": {
+    "estado": "FALLBACK",
+    "estado_api": "FALLBACK",
+    "datos_validos": false,
+    "es_fallback": true,
+    "fecha_observacion": "",
+    "antiguedad_min": null,
+    "max_antiguedad_min": 180.0,
+    "mensaje": "Manual demonstration values; not an operational DLR limit."
+  },
+  "fuente": "Manual demonstration",
+  "tipo_estacion": "MANUAL",
+  "id_estacion": "",
+  "altitud_estacion_m": 0.0,
+  "distancia_aprox_km": null,
+  "lat_linea_deg": 37.9,
+  "lon_linea_deg": -3.0,
+  "he_m": 555.0,
+  "zl_deg": 185.3,
+  "ts_limite_C": 50.0,
+  "hora_solar": 12.0,
+  "meteorologia": {
+    "ta_C": 20.0,
+    "vw_m_s": 2.0,
+    "direccion_viento_deg": 90.0,
+    "fecha": "",
+    "hora_local": "",
+    "fecha_observacion": ""
+  }
+}
